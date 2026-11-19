@@ -15,6 +15,7 @@
                                         in
                                             with identified ;
                                                 {
+                                                    config.environment.sessionVariables.FETCH_BODY_PARSER = "body-parser ^1.20.3" ;
                                                     options =
                                                         {
                                                             body-parser-package =
